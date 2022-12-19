@@ -1,3 +1,20 @@
+Reasonable Clothing App
+
+Fictional clothing storefront built to reinforce React knowledge.
+Adapted principles and teachings from Udemy course by Maximilian Schwarzmüller 'React The Complete Guide(inc hooks, React Router, Redux)'.
+
+- working storefront built using React v18
+- Cart state amnaged using useReducer and useContext Hooks for manage global state
+- ability to adjust cart item quantities from cart
+- followed design princliples of keeping components in seperate files to keep components lean
+- SASS used for styling, also kept in modules local to each component for lean and non-conflicting styles
+
+Design very much a WIP
+
+Coded with love and passion by Brad Anderson - 2022
+
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
