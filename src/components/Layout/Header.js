@@ -7,8 +7,10 @@ import HeaderCartBadge from "./HeaderCartBadge";
 const Header = (props) => {
   return (
     <header className={classes.header}>
-      <h1>Reasonable Clothing</h1>
-      <HeaderCartBadge onClick={props.onShowCart} />
+      <div className={classes.content}>
+        <h1>Reasonable Clothing</h1>
+        <HeaderCartBadge onClick={props.onShowCart} />
+      </div>
     </header>
   );
 };

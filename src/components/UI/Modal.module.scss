@@ -9,11 +9,17 @@
 }
 
 .modal {
-  margin: 15%;
+  margin-top: 15%;
+  margin-left: 10%;
   position: absolute;
   padding: 1rem;
-  width: 80%;
+  width: clamp(200px, 80%, 800px);
   background-color: white;
   z-index: 30;
   border-radius: 14px;
+
+  @media (min-width: 1024px) {
+      margin: 15% (calc(50% - 400px));
+
+  }
 }

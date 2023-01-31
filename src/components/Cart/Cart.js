@@ -8,7 +8,11 @@ import CartItem from "./CartItem";
 import Button from "../UI/Button";
 
 const Cart = (props) => {
+  // refer to CartContext
   const cartCtx = useContext(CartContext);
+
+  // if cart is empty, use to indicate this to user
+  const isCartEmpty = cartCtx.items.length < 1;
 
   const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
   const hasItems = cartCtx.items.length > 0;
@@ -39,7 +43,7 @@ const Cart = (props) => {
 
   return (
     <Modal onClose={props.onClose}>
-      {cartItems}
+      {isCartEmpty ? <p>Your Cart is Empty!!</p> : cartItems}
       <div className={classes.total}>
         <span>Total Amount</span>
         <span>{totalAmount}</span>
