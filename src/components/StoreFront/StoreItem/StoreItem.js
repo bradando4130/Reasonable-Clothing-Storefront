@@ -22,6 +22,7 @@ const StoreItem = (props) => {
       amount: 1,
       size: size,
       price: props.price,
+      img: props.image,
     });
   };
 

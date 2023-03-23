@@ -8,7 +8,7 @@ const DUMMY_DATA = [
     name: "Preston Slim Dress Shirt",
     img: require("../../assets/placeholderShirt.jpg"),
     description: "Collared white business shirt, suitable for all occasions",
-    sizes: ["s", "m", "l", "xl", "xxl"],
+    sizes: ["S", "M", "L", "XL", "XXL"],
     price: 19.99,
   },
   {
@@ -16,7 +16,7 @@ const DUMMY_DATA = [
     name: "Yarra Slim Chino Pant",
     img: require("../../assets/placeholderShirt.jpg"),
     description: "Smarter than jeans, not as formal as dress pants",
-    sizes: ["s", "m", "l", "xl", "xxl"],
+    sizes: ["S", "M", "L", "XL", "XXL"],
     price: 39.99,
   },
   {
@@ -24,7 +24,7 @@ const DUMMY_DATA = [
     name: "Windsor Tie",
     img: require("../../assets/placeholderShirt.jpg"),
     description: "Smart and sophisticated Tie to complement any look",
-    sizes: ["r"],
+    sizes: ["R"],
     price: 17.99,
   },
   {
@@ -32,7 +32,7 @@ const DUMMY_DATA = [
     name: "Prahran T Shirt",
     img: require("../../assets/placeholderShirt.jpg"),
     description: "Casual shirt for casual affairs",
-    sizes: ["s", "m", "l", "xl", "xxl"],
+    sizes: ["S", "M", "L", "XL", "XXL"],
     price: 15.99,
   },
 ];

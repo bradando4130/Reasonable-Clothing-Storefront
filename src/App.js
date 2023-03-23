@@ -5,6 +5,9 @@ import Hero from "./components/Layout/Hero";
 import CartProvider from "./store/CartProvider";
 import StoreFront from "./components/StoreFront/StoreFront";
 import Cart from "./components/Cart/Cart";
+import Footer from "./components/Layout/Footer";
+
+import classes from "./App.module.scss";
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -22,8 +25,9 @@ function App() {
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
       <Hero />
-      <main>
+      <main className={classes.main}>
         <StoreFront />
+        <Footer />
       </main>
     </CartProvider>
   );
