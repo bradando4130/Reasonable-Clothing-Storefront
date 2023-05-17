@@ -1,4 +1,6 @@
 .main {
+  display: flex;
+  flex-direction: column;
     // used to fix footer to bottom of page if full screen
   @media (min-width: 1024px) {
     height: calc(100vh - 130px);

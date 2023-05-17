@@ -1,20 +1,23 @@
 .storeContainer {
   padding: 1rem;
   display: grid;
-  margin: 0 auto;
+  margin: 2rem auto;
   grid-template-rows: auto;
   gap: 1rem;
 
   @media (min-width: 500px) {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
   }
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
 
   @media (min-width: 1024px) {
     max-width: 1200px;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
   }
 }

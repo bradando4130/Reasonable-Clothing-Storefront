@@ -1,16 +1,21 @@
 .footer {
   width: 100%;
-  background-color: red;
+  background-color: #111;
   height: 50px;
   display: flex;
+  
 
   // fix footer to bottom of page if full screen
   @media (min-width: 1024px) {
     position: absolute;
+    left: 0;
     bottom: 0;
   }
+
+
 }
 
 .blurb {
   margin: auto;
+  color: white;
 }

@@ -4,7 +4,6 @@ h3 {
 
 .cartItem {
   display: flex;
-  padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid grey;
   width: 100%;
@@ -55,6 +54,7 @@ li:last-of-type {
 @media  screen and (min-width: 560px) {
   .cartItem {
     font-size: 1rem;
+    padding-top: 1rem;
   }
   .image {
     display: block;

@@ -1,10 +1,14 @@
 .input {
-    display: flex;
-    align-items: center;
-    margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
 
-    & label {
-        font-weight: bold;
-        margin-right: 1rem;
-    }
+  & label {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  & select {
+    padding: .5rem;
+  }
 }
